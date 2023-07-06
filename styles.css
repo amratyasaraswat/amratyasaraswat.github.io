@@ -1,0 +1,59 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-image: url('amratya.jpg');
+  background-size: cover;
+  background-position: center bottom; /* Adjust background position */
+  color: #fff;
+  min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack flex items vertically */
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.container {
+  flex: 1; /* Expand container to fill remaining vertical space */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Push footer to the bottom */
+}
