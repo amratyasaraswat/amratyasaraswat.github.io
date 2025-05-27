@@ -1,24 +1,154 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-  <title>Amratya Saraswat - Personal Website</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Amratya Saraswat</h1>
-    <h2>Software Engineer | Chicago, IL</h2>
-  </header>
+	<head>
+		<title>Amratya Saraswat - Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Personal website of Amratya Saraswat - Software Engineer and Developer" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I am a passionate software engineer based in Chicago, IL. With a strong focus on building robust and scalable applications, I enjoy tackling complex problems and creating efficient solutions.</p>
-    </div>
-  </section>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  <footer>
-    <p>&copy; 2023 Amratya Saraswat. All rights reserved.</p>
-  </footer>
-</body>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-code"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Amratya Saraswat</h1>
+								<p>Software Engineer & Developer</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">About Me</a></li>
+								<li><a href="#work">Projects</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">About Me</h2>
+								<span class="image main"><img src="images/profile.jpg" alt="Amratya Saraswat" /></span>
+								<p>Hi, I’m Amratya Saraswat — a software engineer and graduate student at the University of Illinois at Chicago, passionate about building intelligent systems that solve real-world problems. With industry experience at HERE Technologies, I’ve developed algorithms powering 3D navigation maps and autonomous driving. My academic journey is rooted in both research and teaching, from fine-tuning large language models for healthcare to guiding students in foundational computing concepts. I enjoy blending applied machine learning, NLP, and system design to create impactful tools. Welcome to my digital space — where code meets creativity.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Projects</h2>
+
+								<!-- Project 1 -->
+								<h3><strong>Dynamic Querying & Visualization System</strong></h3>
+								<p><em>LangChain | LangGraph | OpenAI & Llama | Flask | JavaScript</em></p>
+								<ul>
+									<li>Designed an NLP-driven system enabling non-technical users to query databases and generate visualizations via natural language.</li>
+									<li>Developed a modular backend using LangChain and LangGraph to convert queries into executable SQL dynamically.</li>
+									<li>Integrated Flask and JavaScript to create an intuitive web app for real-time user interaction and visualization.</li>
+									<li>Enabled flexible data dictionary support and dynamic chart generation with labeled, user-friendly graphs.</li>
+								</ul>
+
+								<!-- Project 2 -->
+								<h3><strong>Fine Tuning LLM with LoRA (Low-Rank Adaptation)</strong></h3>
+								<p><em>Using Pytorch</em></p>
+								<ul>
+									<li>Fine-tuned the 110M parameter ‘BERT-base-uncased’ model using LoRA on the IMDB dataset from Hugging Face.</li>
+									<li>Efficiently fine-tuned 4M parameters with LoRA, increasing classification accuracy by 50% on handcrafted reviews.</li>
+								</ul>
+
+								<!-- Project 3 -->
+								<h3><strong>PhotoApp – Real-time Gesture controlled Image Filter Application</strong></h3>
+								<p><em>Python | OpenCV | Computer Vision</em></p>
+								<ul>
+									<li>Developed a real-time computer vision pipeline for gesture-driven image filtering using OpenCV and MediaPipe.</li>
+									<li>Attained &gt;95% classification accuracy by integrating hand landmark detection with custom filter modules.</li>
+									<li>Collaborated in a 3-person team, leveraging modular design, Git, and documentation for reproducibility.</li>
+								</ul>
+
+							</article>
+
+						<!-- Skills -->
+							<article id="skills">
+								<h2 class="major">Skills</h2>
+								<h3>Technical Skills</h3>
+								<ul>
+									<li><strong>Programming Languages:</strong> Python, Java, JavaScript, C++, SQL</li>
+									<li><strong>Web Technologies:</strong> HTML5, CSS3, Flask, Node.js, React</li>
+									<li><strong>Machine Learning / AI:</strong> LangChain, LangGraph, PyTorch, TensorFlow, Scikit-learn, OpenAI API, Hugging Face Transformers, NLTK, Spacy</li>
+									<li><strong>Data Science & Visualization:</strong> Pandas, NumPy, Matplotlib, Seaborn, Tableau</li>
+									<li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, SQLite</li>
+									<li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, Lambda), Docker, Git, CI/CD</li>
+									<li><strong>Tools & Platforms:</strong> Jupyter Notebooks, VS Code, Linux/Unix, Agile Methodologies</li>
+								</ul>
+								<h3>Soft Skills</h3>
+								<ul>
+									<li>Problem Solving, Team Collaboration, Communication, Project Management, Critical Thinking</li>
+								</ul>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="https://github.com/amratyasaraswat" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://linkedin.com/in/your-profile" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:your.email@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Amratya Saraswat. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
